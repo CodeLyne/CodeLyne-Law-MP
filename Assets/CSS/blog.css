@@ -159,11 +159,11 @@ header .navbar ul li a.active::before {
 /* Home Start */
 .home {
     background-color: #1B1E21;
-    background-image: url('../Images/blog-main-img.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../Images/blog-main-img.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 15px;
-    opacity: .9;
 }
 
 .home .full-screen {
@@ -216,7 +216,8 @@ header .navbar ul li a.active::before {
 .news-letter {
     min-height: 268px;
     background-color: #1B1E21;
-    background-image: url('../Images/cont-sub-img.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/cont-sub-img.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* opacity: .1;    */

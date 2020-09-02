@@ -160,11 +160,11 @@ header .navbar ul li a.active::before {
 /* Home Start */
 .home {
     background-color: #1B1E21;
-    background-image: url('../Images/cont-img.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../Images/cont-img.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 15px;
-    opacity: .8;
 }
 
 .home .full-screen {
@@ -196,10 +196,10 @@ header .navbar ul li a.active::before {
 .news-letter {
     min-height: 268px;
     background-color: #1B1E21;
-    background-image: url('../Images/cont-sub-img.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/cont-sub-img.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* opacity: .1;    */
 }
 
 .news-letter h5 {
@@ -217,7 +217,28 @@ label {
     background-color: #343F59;
     padding: 4px 10px;
 }
+.progress {
+    background-color: #F2F5FA !important;
+    border-radius: 15px;
+}
+.progress-bar {
+    background-color:  #343F59 !important;
+    border-radius: 15px;
+}
 
+.history h6 {
+    font-size: 15px;
+    color: #343F59;
+}
+.history p {
+    font-size: 13px;
+}
+.history {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 /* Footer */
 .footer ul {
     list-style: none;
