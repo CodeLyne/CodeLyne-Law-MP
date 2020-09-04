@@ -22,8 +22,10 @@
                 <div class="brand-name">
                     <a href="" class="logo">Primerion Chambers</a>
                 </div>
-                <div class="ham-burger">
-                    <i class="fa fa-bars"></i>
+                <div class="ham-burger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
                 <div class="navbar">
                     <ul>
@@ -281,9 +283,10 @@
         // ham-burger
         const hamBurger = document.querySelector(".ham-burger");
 
-        hamBurger.addEventListener("click", function () {
+        function myFunction(hamBurger) {
+            hamBurger.classList.toggle("change");
             document.querySelector(".navbar").classList.toggle("show");
-        })
+        }
     </script>
 
     <!-- CDN VERSION OF ALL THE BOOTSTRAP JAVASCRIPT -->
