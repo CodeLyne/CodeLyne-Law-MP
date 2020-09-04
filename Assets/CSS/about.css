@@ -51,6 +51,26 @@ h6 {
   color: #fff;
 }
 
+/* Footer */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  opacity: 0.6;
+}
+
+/* Footer End */
+
 /* Header Start */
 .container {
   max-width: 1140px;
@@ -237,24 +257,6 @@ label {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Footer */
-.footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer ul li a {
-  font-size: 15px;
-  text-decoration: none;
-  line-height: 40px;
-  display: block;
-  color: #fff;
-  font-weight: 400;
-  position: relative;
-  opacity: 0.6;
-}
-
 @media (max-width: 767px) {
   header {
     padding: 15px;
@@ -288,7 +290,6 @@ label {
   }
 
   header .navbar ul li a::before {
-    background-color: #eee;
-    
+    background-color: #eee;    
   } 
 }
