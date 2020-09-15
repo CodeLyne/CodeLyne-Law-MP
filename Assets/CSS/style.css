@@ -65,9 +65,9 @@ body {
 
 .hero-bg {
   background-image: linear-gradient(
-      var(--light-seconday-bgcolor),
-      var(--light-seconday-bgcolor)
-    ),
+              var(--light-seconday-bgcolor),
+              var(--light-seconday-bgcolor)
+        ),
     url(../Images/Rectangle\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@ body {
 .hero-text {
   font-style: normal;
   font-weight: bold;
-  font-size: calc(62.5% + 0.46vw);
+  font-size: calc(62.5% + 0.51vw);
   line-height: calc(100% + 0.71vw);
   color: var(--primary-font-color);
 }
@@ -182,7 +182,7 @@ a.hero-btn {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.7rem;
-  color: #333333;
+  color: rgb(51, 51, 51);
 }
 
 .card__header--small {
@@ -214,7 +214,7 @@ a.hero-btn {
 }
 
 .card__text--dark {
-  color: #333333;
+  color: rgb(51, 51, 51);
 }
 
 .card__text--width {
@@ -265,11 +265,11 @@ a.hero-btn {
   font-weight: normal;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  color: #333333;
+  color: rgb(51, 51, 51);
 }
 
 .article {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   margin: 8rem 0 5.5rem 0;
 }
 
@@ -302,7 +302,6 @@ a.hero-btn {
 }
 
 .article__title {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 2.8rem;
@@ -316,7 +315,7 @@ a.hero-btn {
   font-size: 1.8rem;
   line-height: 2.8rem;
   letter-spacing: 0.02em;
-  color: #333333;
+  color: rgb(51, 51, 51);
 }
 
 .article__text--margin {
@@ -328,7 +327,7 @@ a.hero-btn {
 }
 
 .article__text--white {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .article__btn-wrapper {
@@ -352,7 +351,7 @@ a.article__btn {
 }
 
 .article__btn--border {
-  border: 0.1rem solid #fff;
+  border: 0.1rem solid rgb(255, 255, 255);
 }
 
 li.article__item {
@@ -375,9 +374,9 @@ li.article__item.active {
 
 .section {
   background-image: linear-gradient(
-      var(--lighter-secondary-bgcolor),
-      var(--lighter-secondary-bgcolor)
-    ),
+              var(--lighter-secondary-bgcolor),
+              var(--lighter-secondary-bgcolor)
+        ),
     url(../Images/cont-sub-img.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -433,7 +432,7 @@ li.article__item.active {
 }
 
 .footer-nav--sub {
-  border-top: 0.1rem solid #fff;
+  border-top: 0.1rem solid rgb(255, 255, 255);
   height: 50%;
 }
 
