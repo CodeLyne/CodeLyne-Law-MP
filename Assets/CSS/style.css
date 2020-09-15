@@ -64,12 +64,7 @@ body {
 }
 
 .hero-bg {
-  background-image: 
-    linear-gradient(
-        var(--light-seconday-bgcolor),
-        var(--light-seconday-bgcolor)
-      ),
-    url(../Images/Rectangle\ 1.png);
+  background-image: linear-gradient(var(--light-seconday-bgcolor), var(--light-seconday-bgcolor)), url(../Images/Rectangle\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -374,11 +369,7 @@ li.article__item.active {
 }
 
 .section {
-  background-image: linear-gradient(
-          var(--lighter-secondary-bgcolor),
-          var(--lighter-secondary-bgcolor)
-      ),
-    url(../Images/cont-sub-img.png);
+  background-image: linear-gradient(var(--lighter-secondary-bgcolor), var(--lighter-secondary-bgcolor)), url(../Images/cont-sub-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
