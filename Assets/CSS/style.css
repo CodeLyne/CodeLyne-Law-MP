@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/*Custom Variables*/
+/* Custom Variables */
 :root {
   --primary-bgcolor: rgb(52, 63, 89);
   --secondary-bgcolor: rgb(27, 30, 33);
@@ -64,9 +64,10 @@ body {
 }
 
 .hero-bg {
-  background-image: linear-gradient(
-          var(--light-seconday-bgcolor),
-          var(--light-seconday-bgcolor)
+  background-image: 
+    linear-gradient(
+        var(--light-seconday-bgcolor),
+        var(--light-seconday-bgcolor)
       ),
     url(../Images/Rectangle\ 1.png);
   background-repeat: no-repeat;
@@ -499,7 +500,7 @@ a.footer-nav__link:hover {
   width: 2.5rem;
 }
 
-/*Responsiveness*/
+/* Responsiveness */
 
 @media screen and (max-width: 1040px) {
   .navbar__link {
