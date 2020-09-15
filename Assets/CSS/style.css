@@ -10,13 +10,13 @@
 
 /*Custom Variables*/
 :root {
-  --primary-bgcolor: rgb(52, 63, 89);
-  --secondary-bgcolor: rgb(27, 30, 33);
-  --light-seconday-bgcolor: rgb(27, 30, 33, 0.7);
-  --lighter-secondary-bgcolor: rgb(27, 30, 33, 0.5);
-  --primary-font-color: rgb(255, 255, 255);
-  --secondary-font-color: rgb(228, 140, 33);
-  --secondary-lightfont-color: rgb(228, 140, 33, 0.5);
+  --primary-bgcolor: #343f59;
+  --secondary-bgcolor: #1b1e21;
+  --light-seconday-bgcolor: #1b1e21b3;
+  --lighter-secondary-bgcolor: #1b1e2180;
+  --primary-font-color: #fff;
+  --secondary-font-color: #e48c21;
+  --secondary-lightfont-color: #e48c2180;
 }
 
 html {
@@ -149,7 +149,7 @@ a.hero-btn {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.8rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
 }
 .card__header--spacing {
   letter-spacing: 0.02em;
@@ -182,9 +182,9 @@ a.hero-btn {
 .card__text {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem
+  font-size: 1.8rem;
   line-height: 2.8rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
 }
 
 .card__text--spacing {
@@ -450,7 +450,7 @@ a.footer-nav__link:hover {
     font-size: 1.2rem;
   }
   .hero-bg {
-    height: 40vh
+    height: 40vh;
   }
   .card--pad-shadow {
     padding: 1rem 1.2rem 0.5rem;
