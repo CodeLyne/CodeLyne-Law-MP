@@ -93,7 +93,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: calc(62.5% + 0.51vw);
-  line-height: calc(100% + 0.90vw);
+  line-height: calc(100% + 0.9vw);
   color: var(--primary-font-color);
 }
 
