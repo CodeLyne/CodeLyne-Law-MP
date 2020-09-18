@@ -69,7 +69,7 @@ body {
   background-size: cover;
   background-position: center center;
   max-width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -82,26 +82,27 @@ body {
 }
 
 .hero-title {
+  margin-top: 0.5rem;
   font-style: normal;
   font-weight: bold;
-  font-size: calc(62.5% + 1.73vw);
-  line-height: calc(100% + 1.68vw);
+  font-size: calc(1rem + 1.73vw);
+  line-height: calc(1.6rem + 1.68vw);
   color: var(--primary-font-color);
 }
 
 .hero-text {
   font-style: normal;
   font-weight: bold;
-  font-size: calc(62.5% + 0.51vw);
-  line-height: calc(100% + 0.9vw);
+  font-size: calc(1rem + 0.51vw);
+  line-height: calc(1.6rem + 0.9vw);
   color: var(--primary-font-color);
 }
 
 a.hero-btn {
   font-style: normal;
   font-weight: bold;
-  font-size: calc(62.5% + 0.41vw);
-  line-height: calc(100% + 0.71vw);
+  font-size: calc(1rem + 0.41vw);
+  line-height: calc(1.6rem + 0.71vw);
   text-decoration: none;
   padding: 1rem 2rem;
   background-color: var(--primary-bgcolor);
@@ -414,15 +415,24 @@ li.article__item.active {
   margin: auto;
 }
 
+.section__form {
+  text-align: center;
+}
+
 .section__form-input {
-  width: 68%;
+  width: 65%;
   padding: 1.3rem 1rem;
+}
+
+.section__btn-wrapper {
+  max-width: 100%;
 }
 
 .section__button {
   background-color: var(--primary-bgcolor);
   padding: 1.5rem 4.8rem;
   border: none;
+  display: inline-block;
   border-top-right-radius: 0.4rem;
   border-bottom-right-radius: 0.4rem;
 }
@@ -507,27 +517,33 @@ a.footer-nav__link:hover {
   }
 
   .hero-bg {
-    height: 40vh;
+    min-height: 40vh;
   }
 
   .card--pad-shadow {
     padding: 1rem 1.2rem 0.5rem;
   }
 
-  .article {
-    margin: 3rem 0 3rem;
-  }
-
   .article__text--margin {
     margin: 0;
   }
 
+  .slide__user-info {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
   .section__newsletter-container {
     max-width: 50%;
   }
 
   .section__form-input {
-    width: 57%;
+    width: 100%;
+  }
+
+  .section__btn-wrapper {
+    width: 100;
+    margin: auto;
   }
 
   .footer-nav__content1 {
@@ -589,6 +605,7 @@ a.footer-nav__link:hover {
   }
 
   .slide__user-info {
+    width: 100%;
     margin-top: 1rem;
   }
 
